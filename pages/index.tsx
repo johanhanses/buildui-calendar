@@ -55,7 +55,7 @@ export default function Page() {
 
   return (
     <MotionConfig transition={{ duration: 0.5 }}>
-      <div className="flex min-h-screen items-start bg-stone-800 pt-16 text-stone-900">
+      <div className="flex min-h-screen items-start bg-stone-800 p-6 pt-16 text-stone-900">
         <div className="relative mx-auto w-full max-w-md overflow-hidden rounded-2xl bg-white">
           <div className="py-8">
             <div className="flex flex-col justify-center rounded text-center">
