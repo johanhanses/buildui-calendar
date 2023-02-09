@@ -126,7 +126,9 @@ export default function Page() {
                       {days.map((day) => (
                         <span
                           key={format(day, 'yyyy-MM-dd')}
-                          className={`${isSameMonth(day, month) ? '' : 'text-stone-300'} font-semibold`}
+                          className={`${
+                            isSameMonth(day, month) ? '' : 'text-stone-300'
+                          } font-semibold`}
                         >
                           {format(day, 'd')}
                         </span>
